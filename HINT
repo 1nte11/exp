@@ -18,3 +18,6 @@ https://www.exploit-db.com/exploits/50702
 
 for sqli
 sqlmap "ip" --cookie="PHPSESSID=coookie" --random-agent --forms --columns
+
+for auth
+https://github.com/maurosoria/dirsearch/blob/master/db/dicc.txt
